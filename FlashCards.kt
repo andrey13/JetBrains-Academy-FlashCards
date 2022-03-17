@@ -6,6 +6,8 @@ import kotlin.random.Random
 
 data class Card(val term: String, var def: String, var err: Int = 0)
 
+//
+
 val cards = mutableListOf<Card>()
 val logs = mutableListOf<String>()
 
